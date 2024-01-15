@@ -4,48 +4,85 @@
   font-family: "Mulish", sans-serif;
 }
 /* nav Related Style */
-.nav-section {
-  max-width: 1440px;
-  margin: 0 auto;
+
+
+/* Banner Related Style */
+.banner-section {
+  background-image: linear-gradient(to bottom, black, transparent),
+    url(../Images/Group\ 13.png);
+  width: 100%px;
+  max-width: 1170px;
+  margin: 30px 100px;
+  height: 500px;
+  /* border: 5px solid red; */
 }
-.nav-container {
-  width: 50%;
-  display: flex;
-  align-items: center;
+.banner-content {
+   text-align: center;
+  }
+  .banner-container {
+    margin: 30px 100px;
 }
-.nav-container img {
-  width: 45px;
-  height: 50px;
-  padding-left: 80px;
-}
-p {
-  color: #131318;
-  font-size: 36px;
+  
+h1 {
+  color: #fff;
+  font-size: 40px;
   font-weight: 800;
+  padding-top: 150px;
 }
-span {
-  color: #ff5400;
-  font-size: 36px;
-  font-weight: 800;
-}
-.nav-section {
-  display: flex;
-  justify-content: space-between;
-}
-.nav-item a {
-  text-decoration: none;
-}
-.special {
-  color: #ff5400;
-  font-size: 18px;
-  font-weight: 700;
-}
-.nav-item {
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-right: 80px;
-  color: #424247;
+.banner-container p {
+  color: #fff;
+  text-align: center;
   font-weight: 400;
+  width: 600px;
+  margin-right: 100px;
+ 
+}
+.input-data input {
+  border-radius: 8px;
+  background: #fff;
+  width: 100px;
+  height: 30px;
+}
+.input-data {
+  /* margin-left: 130px; */
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.single-btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  background: #ff5400;
+}
+
+@media screen and (max-width: 600px) {
+   .input-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   } 
+   .input-data input{
+    width: 100%;
+   }
+   .banner-section{
+    width: 100%;
+    margin: 0;
+   }
+   .banner-container{
+    margin: 0 auto;
+   }
+   h1{
+    padding-top: 0;
+   }
+   .banner-container p{
+    width: 100%;
+    
+   }
+   .single-btn{
+    width: 100%;
+   }
 }
