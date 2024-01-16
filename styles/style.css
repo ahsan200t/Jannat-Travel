@@ -98,6 +98,65 @@ h2 {
   font-weight: 800;
 }
 
+/* destination related style */
+.Destination-text {
+  text-align: center;
+}
+.Destination-text p {
+  width: 600px;
+  margin: 0 auto;
+  color: rgba(19, 19, 24, 0.7);
+}
+.destination-image {
+  width: 100%;
+ 
+
+ 
+}
+.row1 {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.row1 img {
+  width: 500px;
+  height: 300px;
+}
+.row2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.pic-1 {
+  width: 300px;
+  height: 250px;
+}
+.pic-2 {
+  width: 450px;
+  height: 250px;
+}
+.pic-3 {
+  width: 274px;
+  height: 250px;
+}
+.pic-11 {
+  width: 450px;
+  height: 300px;
+}
+.pic-12 {
+  width: 560px;
+  height: 300px;
+}
+.row3 {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 600px) {
   .input-data {
     display: flex;
@@ -110,7 +169,6 @@ h2 {
     margin-right: 0;
   }
   .banner-section {
-   
     height: 483px;
     margin: 0;
   }
@@ -147,4 +205,31 @@ h2 {
     margin-top: 20px;
     font-size: 30px;
   }
+  .row1{
+    flex-direction: column;
+   margin-top: 10px;
+    justify-content: center;
+    
+  }
+  .row2{
+    flex-direction: column;
+    margin-top: 5px;
+    justify-content: center;
+  }
+  .row3{
+    flex-direction: column;
+    margin top: 5px;
+    justify-content: center;
+    
+  }
+  .destination-image img{
+    width: 100%;
+    height: auto;
+    
+  }
+  .Destination-text p{
+    width: 100%;
+    max-width: 600px;
+  }
+  
 }
