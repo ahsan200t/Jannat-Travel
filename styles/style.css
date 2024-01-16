@@ -5,7 +5,6 @@
 }
 /* nav Related Style */
 
-
 /* Banner Related Style */
 .banner-section {
   background-image: linear-gradient(to bottom, black, transparent),
@@ -17,12 +16,12 @@
   /* border: 5px solid red; */
 }
 .banner-content {
-   text-align: center;
-  }
-  .banner-container {
-    margin: 30px 100px;
+  text-align: center;
 }
-  
+.banner-container {
+  margin: 30px 100px;
+}
+
 h1 {
   color: #fff;
   font-size: 40px;
@@ -35,7 +34,6 @@ h1 {
   font-weight: 400;
   width: 600px;
   margin-right: 100px;
- 
 }
 .input-data input {
   border-radius: 8px;
@@ -58,31 +56,95 @@ h1 {
   border-radius: 8px;
   background: #ff5400;
 }
+/* popular tours related style */
+.popular--tours-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 1170px;
+}
+.image img {
+  width: 400px;
+  margin-top: 30px;
+}
+.image {
+  width: 50%;
+}
+.tours-details {
+  width: 50%;
+  margin-left: 100px;
+}
+.secend-btn {
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 8px;
+  background: #ff5400;
+}
+p {
+  width: 400px;
+  color: rgba(19, 19, 24, 0.7);
+}
+ul li {
+  width: 380px;
+  color: rgba(19, 19, 24, 0.7);
+}
+h2 {
+  color: #131318;
+  font-size: 35px;
+  font-weight: 800;
+}
 
 @media screen and (max-width: 600px) {
-   .input-data{
+  .input-data {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   } 
-   .input-data input{
+    height: auto;
+  }
+  .input-data input {
     width: 100%;
-   }
-   .banner-section{
-    width: 100%;
+    margin-right: 0;
+  }
+  .banner-section {
+   
+    height: 483px;
     margin: 0;
-   }
-   .banner-container{
+  }
+  .banner-container {
     margin: 0 auto;
-   }
-   h1{
+  }
+  h1 {
     padding-top: 0;
-   }
-   .banner-container p{
+  }
+  .banner-container p {
     width: 100%;
-    
-   }
-   .single-btn{
+  }
+  .single-btn {
     width: 100%;
-   }
+  }
+  .popular--tours-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tours-details {
+    width: 300px;
+    margin-left: 0;
+  }
+  .image img {
+    width: 300px;
+  }
+  p {
+    width: 300px;
+  }
+  ul > li {
+    width: 280px;
+  }
+  h2 {
+    margin-top: 20px;
+    font-size: 30px;
+  }
 }
