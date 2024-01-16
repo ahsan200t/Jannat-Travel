@@ -116,7 +116,7 @@ h2 {
 }
 .row1 {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   gap: 10px;
   margin-top: 30px;
   margin-left: 20px;
@@ -127,7 +127,7 @@ h2 {
 }
 .row2 {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   gap: 10px;
   margin-top: 20px;
   margin-left: 10px;
@@ -154,7 +154,7 @@ h2 {
 }
 .row3 {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   gap: 10px;
   margin-top: 20px;
   margin-left: 20px;
@@ -203,11 +203,12 @@ height: 180px;
 
 .Newsletter-section{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin-top: 30px;
+    gap: 20px;
 }
 .newsletter-text{
-border-radius: 16px;
+border-radius: 10px;
 border: 1px solid #FF5400;
 width: 400px;
 height: 300px;
@@ -392,9 +393,21 @@ margin-top: 20px;
   /* newsletter section responsive */
   .Newsletter-section{
     flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+   
+    
   }
   .newsletter-text{
     margin: 0 auto;
+    
+    
+  }
+  .newsletter-text h3{
+    margin: 0 auto;
+  }
+  .newsletter-text p{
+   width: 100%;
   }
   .newsletter-image img{
     width: 100%;
