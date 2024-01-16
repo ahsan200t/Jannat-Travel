@@ -156,6 +156,44 @@ h2 {
   margin-left: 20px;
   margin-bottom: 10px;
 }
+/* Choose us section related style */
+.interest-us{
+    text-align: center;
+    padding-top: 40px;
+}
+.interest-us p{
+color: rgba(19, 19, 24, 0.70);
+margin: 0 auto;
+}
+.specisal-service{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.hotel-loc{
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding-left: 20px;
+padding-top: 20px;
+}
+.service-class{
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding-left: 20px;
+padding-top: 20px;
+}
+.price-idea{
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+margin: 20px auto;
+padding-top: 30px;
+padding-left: 30px;
+width: 400px;
+height: 180px;
+}
 
 @media screen and (max-width: 600px) {
   .input-data {
@@ -231,5 +269,7 @@ h2 {
     width: 100%;
     max-width: 600px;
   }
-  
+  .specisal-service{
+    flex-direction: column;
+  }
 }
