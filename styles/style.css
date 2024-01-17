@@ -163,7 +163,7 @@ h2 {
 }
 .interest-us p{
 color: rgba(19, 19, 24, 0.70);
-margin: 0 auto;
+margin: 20px auto;
 }
 .specisal-service{
     display: flex;
@@ -386,6 +386,9 @@ margin-top: 20px;
   }
   .specisal-service{
     flex-direction: column;
+  }
+  .price-idea{
+    padding-left: 10px;
   }
   /* newsletter section responsive */
   .Newsletter-section{
